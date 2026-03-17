@@ -1,31 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
-.cabeca { 
-display: flex;
-justify-content: space-between;
+.joan-regular {
+    font-family: "Joan", serif;
+    font-weight: 400;
+    font-style: normal;
 }
+
+.cabeca {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1vw;
+
+}
+
+.cabeca span {
+    color: white;
+    font-size: 20px;
+}
+
 header {
     background-color: #636363;
 }
+
 h5 {
     align-items: center;
     color: white;
 }
-.porra {
+
+.lista {
     display: flex;
-    justify-content: end;
+    justify-content: space-between;
 }
-li {
+
+.lista li {
     margin: 1vw;
     color: white;
-    
+    text-decoration: underline;
 }
+
 .lista ul {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+
 }
-h1 {
+
+h1.enj {
+    color: rgb(0, 0, 0);
+    font-size: 6vw;
+    margin: 2vw;
+    text-align: center;
+}
+
+.logo a {
     color: white;
     font-size: 2vw;
-    margin: 2vw;
-} 
+}
+
+.marx {
+    background:
+        url(images/algdao-karl-marx.png);
+    text-align: center;
+    padding: 10vw 0 10vw 0;
+}
+
+.marx p {
+    color: white;
+    font-size: 2vw;
+    padding-top: 1vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 5vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40vw;
+    width: 50%;
+    flex: 1;
+    background-position: center;
+    position: relative;
+}
+
+.historia {
+    background-image: url(images/casal-foda.png);
+}
+
+.det {
+   background-image: url(images/anel.png);
+}
+
+.abas li {
+    margin-top: 2vw;
+}
+
+.det p {
+    color: white;
+    font-size: 3vw;
+    padding-top: 3vw;
+    text-decoration: underline;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.historia p {
+    color: white;
+    font-size: 3vw;
+    padding-top: 3vw;
+    text-decoration: underline;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.prim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rsvp {
+    background-image: url(images/florzinha.png);
+}
+.regis {
+    background-image: url(images/cartinha.png);
+}
+
+.seg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6vw;
+}
+.rsvp p {
+    color: white;
+    font-size: 3vw;
+    padding-top: 3vw;
+    text-decoration: underline;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.regis p {
+    color: white;
+    font-size: 3vw;
+    padding-top: 3vw;
+    text-decoration: underline;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.reggae {
+    background-image: url(images/sofia-hernandez.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15vw 0 15vw 0;
+    text-align: center;
+}
+
+.reggae p {
+    color: white;
+    font-size: 3vw;
+    padding-top: 1vw;
+    max-width: 70vw;
+    margin: 0 auto 5vw auto;
+
+}
+.reggae h1 {
+    padding-bottom: 1vw;
+    color: white;
+    font-size: 6vw;
+}
+.rButton {
+    background-color: white;
+    color: black;
+    font-size: 2vw;
+    padding: 1vw 4vw;
+    border-radius: 40px;
+}
+.car {
+    padding-top: 3vw;
+}
